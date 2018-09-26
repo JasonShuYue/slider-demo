@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.window {
+    width: 480px;
+    overflow: hidden;
+    margin: 20px auto 0 auto;
+    border: 2px solid black;
+}
+
+.container {
+    display: flex;
+    align-items: flex-start;
+    transition: transform 0.5s;
+}
+
+.buttons {
+    margin-top: 20px;
+}
+
+.buttons span {
+    padding: 8px;
+    cursor: pointer;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.red {
+    color: red;
+}
